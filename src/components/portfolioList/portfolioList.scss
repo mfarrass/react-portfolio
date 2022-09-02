@@ -1,0 +1,19 @@
+@import '../../global.scss';
+
+.portfolioList {
+    font-size: 14px;
+    margin-right: 50px;
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    @include mobile{
+        margin-right: 10px;
+    }
+
+    &.active{
+        background: -webkit-linear-gradient(135.8deg, rgb(150, 150, 150) 27.1%, rgb(46, 46, 51) 77.5%);
+        color: white;
+        font-weight: 500;
+    }
+}
