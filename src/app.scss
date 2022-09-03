@@ -13,6 +13,7 @@
         top: 70px;
         scroll-behavior: smooth;
         scroll-snap-type: y mandatory;
+        overflow: hidden; 
         scrollbar-width: none; //untuk firefox
         &::-webkit-scrollbar{
             display: none;
