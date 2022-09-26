@@ -51,3 +51,5 @@ function App() {
 
 
 export default App;
+
+// cara jalanin "npm run deploy"
